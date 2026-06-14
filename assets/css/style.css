@@ -1,0 +1,447 @@
+/* =========================================================
+   GLOBAL RESET CSS START HERE
+========================================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* =========================================================
+   REGISTER PAGE CSS START HERE
+========================================================= */
+
+.container {
+    width: 360px;
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 14px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #444;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    outline: none;
+    transition: 0.3s;
+}
+
+.form-group input:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 6px rgba(99,102,241,0.4);
+}
+
+.register-btn,
+.login-btn {
+    margin-top: 10px;
+}
+
+.register-btn button,
+.login-btn button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #6366f1;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.already-register-btn{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.already-register-btn a{
+    text-decoration: none;
+    color: #555;
+    font-size: 13px;
+}
+
+.register-btn button:hover,
+.login-btn button:hover {
+    background: #4f46e5;
+}
+
+.register-btn a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #555;
+    text-decoration: none;
+}
+
+.register-btn a:hover {
+    color: #6366f1;
+}
+
+/* =========================================================
+   FLASH MESSAGE CSS START HERE
+========================================================= */
+
+.error-sms{
+    background-color: #ffe5e5;
+    color: #d63031;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.success-sms{
+    background-color: #e8f8e8;
+    color: #27ae60;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* =========================================================
+   DASHBOARD PAGE CSS START HERE
+========================================================= */
+
+.dashboard-wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+.left-dash {
+    width: clamp(180px, 20vw, 250px);
+    background: #111827;
+    padding: 20px;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+}
+
+.left-dash .button {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.left-dash .button button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #1f2937;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: clamp(12px, 1vw, 14px);
+}
+
+.left-dash .button button:hover {
+    background: #374151;
+}
+
+.left-dash .button button a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+
+.right-dash {
+    flex: 1;
+    padding: 25px;
+    background: #ffffff;
+    border-left: 2px solid #e5e7eb;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.03);
+}
+
+.right-dash h2 {
+    color: #111827;
+    font-weight: 600;
+}
+
+.edit-student-btn{
+    padding: 7px 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: 10px auto;
+    display: block;
+    margin-top: 20px;
+}
+
+/* =========================================================
+   STUDENT LIST PAGE CSS START HERE
+========================================================= */
+
+.table-container{
+    width: 90%;
+    max-width: 1100px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.table-container h2{
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 32px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    background: #007bff;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+td{
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even){
+    background: #f8f9fa;
+}
+
+tr:hover{
+    background: #e9ecef;
+    transition: 0.3s;
+}
+
+/* =========================================================
+   STUDENT LIST BUTTON CSS START HERE
+========================================================= */
+
+.btn-container{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.add-btn,
+.back-btn{
+    text-decoration: none;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.add-btn{
+    background: #28a745;
+}
+
+.add-btn:hover{
+    background: #218838;
+}
+
+.back-btn{
+    background: #6c757d;
+}
+
+.back-btn:hover{
+    background: #5a6268;
+}
+
+.delete-btn{
+    text-decoration: none;
+    background: #dc3545;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.delete-btn:hover{
+    background: #bb2d3b;
+}
+
+.edit-btn{
+    text-decoration: none;
+    background: #28a745;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.edit-btn:hover{
+    background: #218838;
+}
+
+/* =========================================================
+   CREATE STUDENT PAGE CSS START HERE
+========================================================= */
+
+.create-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.back-btn{
+    background:#6c757d;
+}
+
+.back-btn {
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+/* =========================================================
+   USER LIST PAGE CSS START HERE
+========================================================= */
+
+.user-conatiner{
+    width: 90%;
+    max-width: 900px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.user-conatiner h2{
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 30px;
+}
+
+.user-conatiner table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-conatiner th{
+    background: #007bff;
+    color: #fff;
+    padding: 14px;
+    text-align: center;
+}
+
+.user-conatiner td{
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-conatiner tr:nth-child(even){
+    background: #f8f9fa;
+}
+
+.user-conatiner tr:hover{
+    background: #e9ecef;
+    transition: 0.3s;
+}
+
+.add-student-btn{
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.back-btn{
+    display: inline-block;
+    text-decoration: none;
+    background: #6c757d;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.back-btn:hover{
+    background: #5a6268;
+}
+
+.btn-wrapper{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.delete-btn{
+    text-decoration: none;
+    background: #dc3545;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.delete-btn:hover{
+    background: #bb2d3b;
+}
+
+.edit-btn{
+    text-decoration: none;
+    background: #28a745;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.edit-btn:hover{
+    background: #218838;
+}
+
+/* =========================================================
+   END OF PROJECT CSS
+========================================================= */
+
+
+
+
+
