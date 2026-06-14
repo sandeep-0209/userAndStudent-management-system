@@ -37,6 +37,28 @@ database/ → SQL dump file
 
 ---
 
+## 📸 Screenshots
+
+### 🔐 Login Page
+![Login Page](screenshots/login.png)
+
+### 📝 Registration Page
+![Registration Page](screenshots/register.png)
+
+### 📊 Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### 👨‍🎓 Student List
+![Student List](screenshots/student-list.png)
+
+### 👨‍🎓 User List
+![Student List](screenshots/user-list.png)
+
+### 👨‍🎓 Add Student List
+![Student List](screenshots/add-student.png)
+
+---
+
 ## ⚙️ Setup Instructions
 
 1. Clone repository
