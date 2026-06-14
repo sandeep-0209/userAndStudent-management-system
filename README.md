@@ -65,7 +65,7 @@ database/ → SQL dump file
 2. Import `database.sql` in phpMyAdmin
 3. Start XAMPP (Apache + MySQL)
 4. Run project on:
-http://localhost/userAndStudent-management-system
+http://localhost/database_php_project/userAndStudent_management_system
 
 ---
 
