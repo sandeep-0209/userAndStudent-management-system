@@ -45,7 +45,7 @@ database/ → SQL dump file
 <img src="screenshots/login.png" width="400">
 
 <h3>📝 Registration Page</h3>
-<img src="screenshots/register.png" width="400" height="300">
+<img src="screenshots/register.png" width="400">
 
 <h3>📊 Dashboard</h3>
 <img src="screenshots/dashboard.png" width="400">
