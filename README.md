@@ -42,10 +42,10 @@ database/ → SQL dump file
 ## 📸 Screenshots
 
 <h3>🔐 Login Page</h3>
-<img src="screenshots/login.png" width="700">
+<img src="screenshots/login.png" width="400">
 
 <h3>📝 Registration Page</h3>
-<img src="screenshots/register.png" width="700">
+<img src="screenshots/register.png" width="400">
 
 <h3>📊 Dashboard</h3>
 <img src="screenshots/dashboard.png" width="700">
