@@ -48,16 +48,16 @@ database/ → SQL dump file
 <img src="screenshots/register.png" width="400">
 
 <h3>📊 Dashboard</h3>
-<img src="screenshots/dashboard.png" width="700">
+<img src="screenshots/dashboard.png" width="400">
 
 <h3>👨‍🎓 Student List</h3>
-<img src="screenshots/student-list.png" width="700">
+<img src="screenshots/student-list.png" width="400">
 
 <h3>👥 User List</h3>
-<img src="screenshots/user-list.png" width="700">
+<img src="screenshots/user-list.png" width="400">
 
 <h3>➕ Add Student</h3>
-<img src="screenshots/add-student.png" width="700">
+<img src="screenshots/add-student.png" width="400">
 ---
 
 ## ⚙️ Setup Instructions
