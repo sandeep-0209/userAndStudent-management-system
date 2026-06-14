@@ -39,24 +39,25 @@ database/ → SQL dump file
 
 ## 📸 Screenshots
 
-### 🔐 Login Page
-![Login Page](screenshots/login.png)
+## 📸 Screenshots
 
-### 📝 Registration Page
-![Registration Page](screenshots/register.png)
+<h3>🔐 Login Page</h3>
+<img src="screenshots/login.png" width="700">
 
-### 📊 Dashboard
-![Dashboard](screenshots/dashboard.png)
+<h3>📝 Registration Page</h3>
+<img src="screenshots/register.png" width="700">
 
-### 👨‍🎓 Student List
-![Student List](screenshots/student-list.png)
+<h3>📊 Dashboard</h3>
+<img src="screenshots/dashboard.png" width="700">
 
-### 👨‍🎓 User List
-![Student List](screenshots/user-list.png)
+<h3>👨‍🎓 Student List</h3>
+<img src="screenshots/student-list.png" width="700">
 
-### 👨‍🎓 Add Student List
-![Student List](screenshots/add-student.png)
+<h3>👥 User List</h3>
+<img src="screenshots/user-list.png" width="700">
 
+<h3>➕ Add Student</h3>
+<img src="screenshots/add-student.png" width="700">
 ---
 
 ## ⚙️ Setup Instructions
